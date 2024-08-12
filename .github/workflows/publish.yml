@@ -12,6 +12,7 @@ permissions:
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
+    environment: release  # Name of the environment you created
 
     steps:
       - name: Checkout code
