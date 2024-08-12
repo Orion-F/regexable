@@ -1,10 +1,10 @@
-# Regexable
+# Regexable Documentation
 
-Regexable is a Python package that simplifies the creation and management of regular expressions through an intuitive, chainable interface. This package makes it easier for both beginners and experienced developers to construct complex regex patterns in a more readable and maintainable way.
+Welcome to the official documentation for [**Regexable**](https://github.com/Orion-F/regexable) - a Python package designed to simplify the creation and management of regular expressions. Regexable provides an intuitive, readable, and chainable interface that makes working with regex easier for both beginners and experienced developers.
 
 ## Features
 
-- **Chainable Methods**: Build regex patterns step by step using a clean, chainable syntax.
+- **Chainable Methods**: Construct regex patterns step by step using a clean, chainable syntax.
 - **Anchors and Boundaries**: Easily add start-of-line, end-of-line, word boundary, and other anchors to your patterns.
 - **Text Matching**: Add specific text or optional text segments, and define characters to match or exclude.
 - **Quantifiers**: Specify how many times a character or group should be matched (e.g., zero or more, one or more, exactly n times).
@@ -12,17 +12,9 @@ Regexable is a Python package that simplifies the creation and management of reg
 - **Grouping and Alternation**: Group patterns together or create alternatives using the `group` and `or_` methods.
 - **Utilities**: Match, search, and compile patterns into regex objects.
 
-## Installation
-
-Install Regexable via pip:
-
-```sh
-pip install regexable
-```
-
 ## Quick Start
 
-Here's a quick example of how to use Regexable:
+Here’s a quick example to get you started with Regexable:
 
 ```python
 from regexable import Regexable
@@ -44,23 +36,20 @@ print(match)  # Output: <re.Match object; span=(0, 11), match='Hello World'>
 # Check if a string matches the pattern
 if pattern.match("Hello World"):
     print("Match found!")
+```
 
-# Use additional features
-regex = Regexable()\
-    .start_of_line()\
-    .then("abc")\
-    .maybe("def")\
-    .anything_but("g")\
-    .end_of_line()\
-    .build()
+## Installation
 
-print(regex.pattern)  # Output: ^abc(def)?[^g]+$
+Install Regexable via pip:
+
+```sh
+pip install regexable
 ```
 
 ## Contributing
 
 We welcome contributions! If you find a bug or have a feature request, please create an issue on our [GitHub repository](https://github.com/Orion-F/regexable).
 
-## Documentation
+## License
 
-The official documentation is available at [Regexable Documentation](https://Orion-F.github.io/regexable/).
+Regexable is licensed under the MIT License.

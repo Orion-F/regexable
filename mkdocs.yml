@@ -1,0 +1,9 @@
+site_name: Regexable Documentation
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Examples: examples.md
+  - API Reference: api_reference.md
+
+theme:
+  name: readthedocs

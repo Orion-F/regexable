@@ -11,7 +11,7 @@ setup(
     description="A more readable alternative to regular expressions.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/regexable",
+    url="https://github.com/Orion-F/regexable",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
