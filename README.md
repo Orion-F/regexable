@@ -2,6 +2,10 @@
 
 Regexable is a Python package that simplifies the creation and management of regular expressions through an intuitive, chainable interface. This package makes it easier for both beginners and experienced developers to construct complex regex patterns in a more readable and maintainable way.
 
+## Documentation
+
+The official documentation is available at [Regexable Documentation](https://Orion-F.github.io/regexable/).
+
 ## Features
 
 - **Chainable Methods**: Build regex patterns step by step using a clean, chainable syntax.
@@ -60,7 +64,3 @@ print(regex.pattern)  # Output: ^abc(def)?[^g]+$
 ## Contributing
 
 We welcome contributions! If you find a bug or have a feature request, please create an issue on our [GitHub repository](https://github.com/Orion-F/regexable).
-
-## Documentation
-
-The official documentation is available at [Regexable Documentation](https://Orion-F.github.io/regexable/).
